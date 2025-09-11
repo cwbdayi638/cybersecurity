@@ -1,0 +1,9 @@
+    1  echo $HF_TOKEN
+    2  git remote -v
+    3  git remote remove huggingface
+    4  git remote -v
+    5  git remote add huggingface https://cwbdayi:$HF_TOKEN@huggingface.co/spaces/cwbdayi/cybersecurity_HF
+    6  git remote -v
+    7  history
+    8  history > history.txt
+    9  git push --force huggingface main
